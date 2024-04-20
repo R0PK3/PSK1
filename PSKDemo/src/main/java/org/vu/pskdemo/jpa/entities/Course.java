@@ -3,6 +3,7 @@ package org.vu.pskdemo.jpa.entities;
 import jakarta.persistence.*;
 import lombok.Data;
 
+import java.util.ArrayList;
 import java.util.List;
 
 
@@ -26,5 +27,10 @@ public class Course {
 
     @ManyToMany(mappedBy = "courses")
     private List<Student> students;
+
+    /*
+    @OneToMany(mappedBy = "course", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    private List<StudentGroup> studentGroups = new ArrayList<>();
+    */
 
 }

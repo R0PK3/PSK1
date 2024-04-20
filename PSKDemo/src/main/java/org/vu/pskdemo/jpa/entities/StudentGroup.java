@@ -8,6 +8,7 @@ import java.util.List;
 @Entity
 @Getter
 @Setter
+@NamedQueries({@NamedQuery(name = "StudentGroup.findAll", query = "select g from StudentGroup as g")})
 public class StudentGroup {
 
     @Id
@@ -25,4 +26,10 @@ public class StudentGroup {
 
     @ManyToMany(mappedBy = "studentGroup")
     private List<Student> students;
+
+    /*
+    @ManyToOne
+    @JoinColumn(name = "course_id")
+    private Course course;
+    */
 }
