@@ -27,9 +27,9 @@ public class StudentGroup {
     @ManyToMany(mappedBy = "studentGroup")
     private List<Student> students;
 
-    /*
+
     @ManyToOne
     @JoinColumn(name = "course_id")
     private Course course;
-    */
+
 }

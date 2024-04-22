@@ -28,9 +28,9 @@ public class Course {
     @ManyToMany(mappedBy = "courses")
     private List<Student> students;
 
-    /*
+
     @OneToMany(mappedBy = "course", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private List<StudentGroup> studentGroups = new ArrayList<>();
-    */
+
 
 }
