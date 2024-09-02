@@ -1,0 +1,517 @@
+2024-05-25 17:34:32,769 INFO  [org.jboss.modules] (main) JBoss Modules version 2.1.2.Final
+2024-05-25 17:34:41,493 INFO  [org.jboss.msc] (main) JBoss MSC version 1.5.2.Final
+2024-05-25 17:34:41,506 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2024-05-25 17:34:41,618 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 31.0.0.Final (WildFly Core 23.0.1.Final) starting
+2024-05-25 17:34:41,620 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	file.encoding = UTF-8
+	file.separator = \
+	java.awt.headless = true
+	java.class.path = C:\Users\Ropke\Desktop\wildfly-31.0.0.Final\jboss-modules.jar
+	java.class.version = 65.0
+	java.home = C:\Users\Ropke\.jdks\openjdk-21.0.2
+	java.io.tmpdir = C:\Users\Ropke\AppData\Local\Temp\
+	java.library.path = C:\Users\Ropke\.jdks\openjdk-21.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Eclipse Adoptium\jdk-21.0.2.13-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python312\Scripts\;C:\Python312\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:/Program Files/JetBrains/IntelliJ IDEA 2019.3.1/plugins/maven/lib/maven3\bin;C:\Users\Ropke\Desktop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin;C:\Program Files\Java\jdk-22\bin;C:\Users\Ropke\AppData\Local\Microsoft\WindowsApps;C:\Users\Ropke\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Ropke\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.3\bin;;C:\Users\Ropke\.dotnet\tools;C:\Program Files\Tricentis\Mobile Agent;C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.4\bin;;C:\Users\Ropke\AppData\Roaming\npm;C:\MAVEN\apache-maven-3.9.6-bin\apache-maven-3.9.6\bin;C:\Program Files\Java\jdk-22\bin;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 21.0.2+13-58
+	java.security.manager = allow
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 21
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = https://java.oracle.com/
+	java.vendor.url.bug = https://bugreport.java.com/bugreport/
+	java.version = 21.0.2
+	java.version.date = 2024-01-16
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode, sharing
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 21
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 21.0.2+13-58
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = C:\Users\Ropke\Desktop\wildfly-31.0.0.Final
+	jboss.host.name = desktop-a9drvgm
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-a9drvgm
+	jboss.qualified.host.name = desktop-a9drvgm
+	jboss.server.base.dir = C:\Users\Ropke\Desktop\wildfly-31.0.0.Final\standalone
+	jboss.server.config.dir = C:\Users\Ropke\Desktop\wildfly-31.0.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\Ropke\Desktop\wildfly-31.0.0.Final\standalone\data
+	jboss.server.log.dir = C:\Users\Ropke\Desktop\wildfly-31.0.0.Final\standalone\log
+	jboss.server.name = desktop-a9drvgm
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Ropke\Desktop\wildfly-31.0.0.Final\standalone\tmp
+	jdk.debug = release
+	jdk.serialFilter = maxbytes=10485760;maxdepth=128;maxarray=100000;maxrefs=300000
+	line.separator = 
+
+	logging.configuration = file:C:\Users\Ropke\Desktop\wildfly-31.0.0.Final\standalone\configuration/logging.properties
+	module.path = C:\Users\Ropke\Desktop\wildfly-31.0.0.Final\modules
+	native.encoding = Cp1252
+	org.jboss.boot.log.file = C:\Users\Ropke\Desktop\wildfly-31.0.0.Final\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	stderr.encoding = Cp1252
+	stdout.encoding = Cp1252
+	sun.arch.data.model = 64
+	sun.boot.library.path = C:\Users\Ropke\.jdks\openjdk-21.0.2\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\Ropke\Desktop\wildfly-31.0.0.Final\jboss-modules.jar -mp C:\Users\Ropke\Desktop\wildfly-31.0.0.Final\modules org.jboss.as.standalone -Djboss.home.dir=C:\Users\Ropke\Desktop\wildfly-31.0.0.Final
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	user.country = US
+	user.country.format = LT
+	user.dir = C:\Users\Ropke\Desktop\wildfly-31.0.0.Final\bin
+	user.home = C:\Users\Ropke
+	user.language = en
+	user.language.format = lt
+	user.name = Ropke
+	user.script = 
+	user.timezone = Europe/Vilnius
+	user.variant = 
+2024-05-25 17:34:41,621 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Djdk.serialFilter=maxbytes=10485760;maxdepth=128;maxarray=100000;maxrefs=300000 --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldaps=ALL-UNNAMED --add-exports=jdk.naming.dns/com.sun.jndi.dns=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED -Djava.security.manager=allow -Dorg.jboss.boot.log.file=C:\Users\Ropke\Desktop\wildfly-31.0.0.Final\standalone\log\server.log -Dlogging.configuration=file:C:\Users\Ropke\Desktop\wildfly-31.0.0.Final\standalone\configuration/logging.properties 
+2024-05-25 17:34:46,926 INFO  [org.wildfly.security] (ServerService Thread Pool -- 28) ELY00001: WildFly Elytron version 2.2.3.Final
+2024-05-25 17:34:54,549 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 36) WFLYCTL0028: Attribute 'cluster' in the resource at address '/subsystem=ejb3/service=remote' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2024-05-25 17:34:54,646 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2024-05-25 17:34:54,663 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.8.12.Final
+2024-05-25 17:34:54,669 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.8.12.Final
+2024-05-25 17:34:54,728 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 74) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2024-05-25 17:34:54,746 INFO  [org.wildfly.extension.microprofile.jwt.smallrye] (ServerService Thread Pool -- 66) WFLYJWT0001: Activating MicroProfile JWT Subsystem
+2024-05-25 17:34:54,750 INFO  [org.wildfly.extension.microprofile.config.smallrye] (ServerService Thread Pool -- 65) WFLYCONF0001: Activating MicroProfile Config Subsystem
+2024-05-25 17:34:54,752 INFO  [org.wildfly.extension.elytron.oidc._private] (ServerService Thread Pool -- 53) WFLYOIDC0001: Activating WildFly Elytron OIDC Subsystem
+2024-05-25 17:34:54,757 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 55) WFLYCLINF0001: Activating Infinispan subsystem.
+2024-05-25 17:34:54,759 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 54) WFLYHEALTH0001: Activating Base Health Subsystem
+2024-05-25 17:34:54,770 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 62) WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
+2024-05-25 17:34:54,773 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 64) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2024-05-25 17:34:54,783 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 67) WFLYNAM0001: Activating Naming Subsystem
+2024-05-25 17:34:54,795 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 76) WFLYWS0002: Activating WebServices Extension
+2024-05-25 17:34:54,838 INFO  [org.jboss.as.connector] (MSC service thread 1-1) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 3.0.8.Final)
+2024-05-25 17:34:54,851 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 44) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 2.2)
+2024-05-25 17:34:54,874 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 56) WFLYIO001: Worker 'default' has auto-configured to 8 IO threads with 64 max task threads based on your 4 available processors
+2024-05-25 17:34:54,898 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-5) WFLYELY00023: KeyStore file 'C:\Users\Ropke\Desktop\wildfly-31.0.0.Final\standalone\configuration\application.keystore' does not exist. Used blank.
+2024-05-25 17:34:55,007 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 57) WFLYRS0016: RESTEasy version 6.2.7.Final
+2024-05-25 17:34:55,105 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0003: Undertow 2.3.10.Final starting
+2024-05-25 17:34:55,160 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 5.0.27.Final
+2024-05-25 17:34:55,186 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 75) WFLYUT0014: Creating file handler for path 'C:\Users\Ropke\Desktop\wildfly-31.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2024-05-25 17:34:55,312 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2024-05-25 17:35:07,673 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2024-05-25 17:35:07,673 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2024-05-25 17:35:07,675 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = h2
+2024-05-25 17:35:07,688 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-5) WFLYELY01084: KeyStore C:\Users\Ropke\Desktop\wildfly-31.0.0.Final\standalone\configuration\application.keystore not found, it will be auto-generated on first use with a self-signed certificate for host localhost
+2024-05-25 17:35:07,712 INFO  [org.jboss.as.naming] (MSC service thread 1-3) WFLYNAM0003: Starting Naming Service
+2024-05-25 17:35:07,712 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-3) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2024-05-25 17:35:07,776 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2024-05-25 17:35:07,785 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0012: Started server default-server.
+2024-05-25 17:35:07,786 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) Queuing requests.
+2024-05-25 17:35:07,787 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0018: Host default-host starting
+2024-05-25 17:35:07,790 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2024-05-25 17:35:07,870 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2024-05-25 17:35:08,240 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "PskDemo" (runtime-name: "PskDemo.war")
+2024-05-25 17:35:08,272 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-8) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\Ropke\Desktop\wildfly-31.0.0.Final\standalone\deployments
+2024-05-25 17:35:08,401 INFO  [org.jboss.ws.common.management] (MSC service thread 1-5) JBWS022052: Starting JBossWS 7.0.0.Final (Apache CXF 4.0.0) 
+2024-05-25 17:35:11,126 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) WFLYJPA0002: Read persistence.xml for DemoPersistenceUnit
+2024-05-25 17:35:11,140 WARN  [org.jboss.as.connector] (MSC service thread 1-4) WFLYJCA0091: -ds.xml file deployments are deprecated. Support may be removed in a future version.
+2024-05-25 17:35:11,524 INFO  [org.jipijapa] (MSC service thread 1-6) JIPIORMV6020260: Second level cache enabled for PskDemo#DemoPersistenceUnit
+2024-05-25 17:35:11,525 WARN  [org.jboss.as.connector.deployer.dsdeployer] (MSC service thread 1-6) WFLYJCA0012: <drivers/> in standalone -ds.xml deployments aren't supported: Ignoring PskDemo.war
+2024-05-25 17:35:11,667 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:/StudentsDataSource]
+2024-05-25 17:35:11,683 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment PskDemo.war
+2024-05-25 17:35:11,867 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-6) HV000001: Hibernate Validator 8.0.1.Final
+2024-05-25 17:35:12,310 INFO  [org.jipijapa] (MSC service thread 1-6) JIPIORMV6020260: Second level cache enabled for PskDemo#DemoPersistenceUnit
+2024-05-25 17:35:12,315 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 79) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2024-05-25 17:35:12,359 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 2.2)
+2024-05-25 17:35:12,401 INFO  [org.jboss.weld.Version] (MSC service thread 1-6) WELD-000900: 5.1.2 (Final)
+2024-05-25 17:35:12,488 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = PskDemo.war_org.h2.Driver_2_2
+2024-05-25 17:35:12,812 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 79) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'PskDemo#DemoPersistenceUnit'
+2024-05-25 17:35:12,826 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 79) HHH000204: Processing PersistenceUnitInfo [name: DemoPersistenceUnit]
+2024-05-25 17:35:12,879 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 79) HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-05-25 17:35:13,209 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 79) HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-05-25 17:35:13,227 INFO  [org.hibernate.cache.internal.RegionFactoryInitiator] (ServerService Thread Pool -- 79) HHH000025: Second-level cache region factory [org.infinispan.hibernate.cache.v62.InfinispanRegionFactory]
+2024-05-25 17:35:13,292 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 79) Envers integration enabled? : true
+2024-05-25 17:35:13,424 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 79) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'PskDemo#DemoPersistenceUnit'
+2024-05-25 17:35:14,602 INFO  [stdout] (ServerService Thread Pool -- 79) Hibernate: create table Course (id bigint generated by default as identity, capacity integer not null, grade integer, primary key (id))
+2024-05-25 17:35:14,606 INFO  [stdout] (ServerService Thread Pool -- 79) Hibernate: create table Student (id bigint generated by default as identity, name varchar(255) not null, PASS_NUMBER integer, surname varchar(255) not null, OPT_LOCK_VERSION integer, course_id bigint, primary key (id))
+2024-05-25 17:35:14,607 INFO  [stdout] (ServerService Thread Pool -- 79) Hibernate: create table Student_Group (student_id bigint not null, studentGroup_id bigint not null)
+2024-05-25 17:35:14,608 INFO  [stdout] (ServerService Thread Pool -- 79) Hibernate: create table StudentGroup (id bigint generated by default as identity, capacity integer not null, grade integer, title varchar(255) not null, primary key (id))
+2024-05-25 17:35:14,610 INFO  [stdout] (ServerService Thread Pool -- 79) Hibernate: alter table if exists Student add constraint FKskl2qaeahbtuypykfe0hs4mn foreign key (course_id) references Course
+2024-05-25 17:35:14,614 INFO  [stdout] (ServerService Thread Pool -- 79) Hibernate: alter table if exists Student_Group add constraint FKn19i3rny9m1lfv4yhqtwa23a4 foreign key (studentGroup_id) references StudentGroup
+2024-05-25 17:35:14,615 INFO  [stdout] (ServerService Thread Pool -- 79) Hibernate: alter table if exists Student_Group add constraint FKl3hmgr7rt94fowfk5jaqr19p5 foreign key (student_id) references Student
+2024-05-25 17:35:15,088 INFO  [org.mybatis.cdi.MybatisExtension] (MSC service thread 1-7) MyBatis CDI Module - Activated
+2024-05-25 17:35:15,387 INFO  [jakarta.enterprise.resource.webcontainer.faces.config] (ServerService Thread Pool -- 84) Initializing Mojarra 4.0.5 for context '/PskDemo'
+2024-05-25 17:35:16,196 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 84) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class org.vu.pskdemo.jpa.rest.ApiConfiguration
+2024-05-25 17:35:16,242 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 84) WFLYUT0021: Registered web context: '/PskDemo' for server 'default-server'
+2024-05-25 17:35:16,368 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "PskDemo" (runtime-name : "PskDemo.war")
+2024-05-25 17:35:16,406 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2024-05-25 17:35:16,423 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2024-05-25 17:35:16,423 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2024-05-25 17:35:16,426 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 31.0.0.Final (WildFly Core 23.0.1.Final) started in 60231ms - Started 427 of 628 services (323 services are lazy, passive or on-demand) - Server configuration file in use: standalone.xml
+2024-05-25 17:35:16,746 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0019: Stopped Driver service with driver-name = PskDemo.war_org.h2.Driver_2_2
+2024-05-25 17:35:16,749 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 2) WFLYUT0022: Unregistered web context: '/PskDemo' from server 'default-server'
+2024-05-25 17:35:16,776 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 2) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'PskDemo#DemoPersistenceUnit'
+2024-05-25 17:35:16,780 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 2) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@61e53f5f
+2024-05-25 17:35:16,783 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 2) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'PskDemo#DemoPersistenceUnit'
+2024-05-25 17:35:16,785 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0010: Unbound data source [java:/StudentsDataSource]
+2024-05-25 17:35:16,816 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment PskDemo (runtime-name: PskDemo.war) in 74ms
+2024-05-25 17:35:16,856 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "PskDemo" (runtime-name: "PskDemo.war")
+2024-05-25 17:35:16,973 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "PskDemo" (runtime-name: "PskDemo.war")
+2024-05-25 17:35:17,990 INFO  [org.jboss.as.jpa] (MSC service thread 1-5) WFLYJPA0002: Read persistence.xml for DemoPersistenceUnit
+2024-05-25 17:35:17,992 WARN  [org.jboss.as.connector] (MSC service thread 1-5) WFLYJCA0091: -ds.xml file deployments are deprecated. Support may be removed in a future version.
+2024-05-25 17:35:18,034 INFO  [org.jipijapa] (MSC service thread 1-2) JIPIORMV6020260: Second level cache enabled for PskDemo#DemoPersistenceUnit
+2024-05-25 17:35:18,034 WARN  [org.jboss.as.connector.deployer.dsdeployer] (MSC service thread 1-2) WFLYJCA0012: <drivers/> in standalone -ds.xml deployments aren't supported: Ignoring PskDemo.war
+2024-05-25 17:35:18,036 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:/StudentsDataSource]
+2024-05-25 17:35:18,038 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment PskDemo.war
+2024-05-25 17:35:18,054 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 7) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2024-05-25 17:35:18,103 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 2) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'PskDemo#DemoPersistenceUnit'
+2024-05-25 17:35:18,103 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 2) HHH000204: Processing PersistenceUnitInfo [name: DemoPersistenceUnit]
+2024-05-25 17:35:18,131 INFO  [org.jipijapa] (MSC service thread 1-5) JIPIORMV6020260: Second level cache enabled for PskDemo#DemoPersistenceUnit
+2024-05-25 17:35:18,136 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 2.2)
+2024-05-25 17:35:18,166 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = PskDemo.war_org.h2.Driver_2_2
+2024-05-25 17:35:18,237 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 2) HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-05-25 17:35:18,240 INFO  [org.hibernate.cache.internal.RegionFactoryInitiator] (ServerService Thread Pool -- 2) HHH000025: Second-level cache region factory [org.infinispan.hibernate.cache.v62.InfinispanRegionFactory]
+2024-05-25 17:35:18,246 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 2) Envers integration enabled? : true
+2024-05-25 17:35:18,326 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 2) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'PskDemo#DemoPersistenceUnit'
+2024-05-25 17:35:18,603 INFO  [org.mybatis.cdi.MybatisExtension] (MSC service thread 1-3) MyBatis CDI Module - Activated
+2024-05-25 17:35:18,677 INFO  [jakarta.enterprise.resource.webcontainer.faces.config] (ServerService Thread Pool -- 8) Initializing Mojarra 4.0.5 for context '/PskDemo'
+2024-05-25 17:35:18,826 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 8) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class org.vu.pskdemo.jpa.rest.ApiConfiguration
+2024-05-25 17:35:18,832 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 8) WFLYUT0021: Registered web context: '/PskDemo' for server 'default-server'
+2024-05-25 17:35:18,874 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "PskDemo" (runtime-name : "PskDemo.war")
+2024-05-25 17:35:19,508 INFO  [stdout] (default task-1) Hibernate: select sg1_0.id,sg1_0.capacity,sg1_0.grade,sg1_0.title from StudentGroup sg1_0
+2024-05-25 17:35:21,938 INFO  [stdout] (default task-1) Hibernate: select sg1_0.id,sg1_0.capacity,sg1_0.grade,sg1_0.title from StudentGroup sg1_0
+2024-05-25 17:36:09,330 INFO  [stdout] (default task-1) Hibernate: select sg1_0.id,sg1_0.capacity,sg1_0.grade,sg1_0.title from StudentGroup sg1_0
+2024-05-25 17:36:09,407 INFO  [stdout] (default task-1) Hibernate: insert into StudentGroup (capacity,grade,title,id) values (?,?,?,default)
+2024-05-25 17:36:09,503 INFO  [stdout] (default task-1) Hibernate: select sg1_0.id,sg1_0.capacity,sg1_0.grade,sg1_0.title from StudentGroup sg1_0
+2024-05-25 17:36:10,872 INFO  [stdout] (default task-1) Hibernate: select sg1_0.id,sg1_0.capacity,sg1_0.grade,sg1_0.title from StudentGroup sg1_0 where sg1_0.id=?
+2024-05-25 17:36:10,883 INFO  [stdout] (default task-1) Hibernate: select s1_0.studentGroup_id,s1_1.id,c1_0.id,c1_0.capacity,c1_0.grade,s1_1.name,s1_1.PASS_NUMBER,s1_1.surname,s1_1.OPT_LOCK_VERSION from Student_Group s1_0 join Student s1_1 on s1_1.id=s1_0.student_id left join Course c1_0 on c1_0.id=s1_1.course_id where s1_0.studentGroup_id=?
+2024-05-25 17:36:13,757 INFO  [stdout] (default task-1) Hibernate: select sg1_0.id,sg1_0.capacity,sg1_0.grade,sg1_0.title from StudentGroup sg1_0 where sg1_0.id=?
+2024-05-25 17:36:13,759 INFO  [stdout] (default task-1) Hibernate: select s1_0.studentGroup_id,s1_1.id,c1_0.id,c1_0.capacity,c1_0.grade,s1_1.name,s1_1.PASS_NUMBER,s1_1.surname,s1_1.OPT_LOCK_VERSION from Student_Group s1_0 join Student s1_1 on s1_1.id=s1_0.student_id left join Course c1_0 on c1_0.id=s1_1.course_id where s1_0.studentGroup_id=?
+2024-05-25 17:36:13,774 INFO  [stdout] (default task-1) Hibernate: insert into Student (course_id,name,PASS_NUMBER,surname,OPT_LOCK_VERSION,id) values (?,?,?,?,?,default)
+2024-05-25 17:36:13,789 INFO  [stdout] (default task-1) Hibernate: insert into Student_Group (student_id,studentGroup_id) values (?,?)
+2024-05-25 17:36:13,804 INFO  [stdout] (default task-1) Hibernate: select sg1_0.id,sg1_0.capacity,sg1_0.grade,sg1_0.title from StudentGroup sg1_0 where sg1_0.id=?
+2024-05-25 17:36:13,805 INFO  [stdout] (default task-1) Hibernate: select s1_0.studentGroup_id,s1_1.id,c1_0.id,c1_0.capacity,c1_0.grade,s1_1.name,s1_1.PASS_NUMBER,s1_1.surname,s1_1.OPT_LOCK_VERSION from Student_Group s1_0 join Student s1_1 on s1_1.id=s1_0.student_id left join Course c1_0 on c1_0.id=s1_1.course_id where s1_0.studentGroup_id=?
+2024-05-25 17:36:16,420 INFO  [stdout] (default task-1) UpdateStudentDetails INIT CALLED
+2024-05-25 17:36:16,421 INFO  [stdout] (default task-1) Hibernate: select s1_0.id,c1_0.id,c1_0.capacity,c1_0.grade,s1_0.name,s1_0.PASS_NUMBER,s1_0.surname,s1_0.OPT_LOCK_VERSION from Student s1_0 left join Course c1_0 on c1_0.id=s1_0.course_id where s1_0.id=?
+2024-05-25 17:36:16,422 INFO  [stdout] (default task-1) Hibernate: select sg1_0.student_id,sg1_1.id,sg1_1.capacity,sg1_1.grade,sg1_1.title from Student_Group sg1_0 join StudentGroup sg1_1 on sg1_1.id=sg1_0.studentGroup_id where sg1_0.student_id=?
+2024-05-25 17:37:08,028 INFO  [stdout] (default task-1) Hibernate: select sg1_0.id,sg1_0.capacity,sg1_0.grade,sg1_0.title from StudentGroup sg1_0
+2024-05-25 17:37:38,965 INFO  [stdout] (default task-1) GET /student/1
+2024-05-25 17:37:38,966 INFO  [stdout] (default task-1) Hibernate: select s1_0.id,c1_0.id,c1_0.capacity,c1_0.grade,s1_0.name,s1_0.PASS_NUMBER,s1_0.surname,s1_0.OPT_LOCK_VERSION from Student s1_0 left join Course c1_0 on c1_0.id=s1_0.course_id where s1_0.id=?
+2024-05-25 17:37:38,968 INFO  [stdout] (default task-1) Hibernate: select sg1_0.student_id,sg1_1.id,sg1_1.capacity,sg1_1.grade,sg1_1.title from Student_Group sg1_0 join StudentGroup sg1_1 on sg1_1.id=sg1_0.studentGroup_id where sg1_0.student_id=?
+2024-05-25 18:04:18,295 INFO  [stdout] (default task-1) GET /student/1
+2024-05-25 18:04:18,304 INFO  [stdout] (default task-1) Hibernate: select s1_0.id,c1_0.id,c1_0.capacity,c1_0.grade,s1_0.name,s1_0.PASS_NUMBER,s1_0.surname,s1_0.OPT_LOCK_VERSION from Student s1_0 left join Course c1_0 on c1_0.id=s1_0.course_id where s1_0.id=?
+2024-05-25 18:04:18,311 INFO  [stdout] (default task-1) Hibernate: select sg1_0.student_id,sg1_1.id,sg1_1.capacity,sg1_1.grade,sg1_1.title from Student_Group sg1_0 join StudentGroup sg1_1 on sg1_1.id=sg1_0.studentGroup_id where sg1_0.student_id=?
+2024-05-25 18:04:20,744 INFO  [stdout] (default task-1) GET /student/2
+2024-05-25 18:04:20,745 INFO  [stdout] (default task-1) Hibernate: select s1_0.id,c1_0.id,c1_0.capacity,c1_0.grade,s1_0.name,s1_0.PASS_NUMBER,s1_0.surname,s1_0.OPT_LOCK_VERSION from Student s1_0 left join Course c1_0 on c1_0.id=s1_0.course_id where s1_0.id=?
+2024-05-25 18:04:23,637 INFO  [stdout] (default task-1) GET /student/1
+2024-05-25 18:04:23,638 INFO  [stdout] (default task-1) Hibernate: select s1_0.id,c1_0.id,c1_0.capacity,c1_0.grade,s1_0.name,s1_0.PASS_NUMBER,s1_0.surname,s1_0.OPT_LOCK_VERSION from Student s1_0 left join Course c1_0 on c1_0.id=s1_0.course_id where s1_0.id=?
+2024-05-25 18:04:23,639 INFO  [stdout] (default task-1) Hibernate: select sg1_0.student_id,sg1_1.id,sg1_1.capacity,sg1_1.grade,sg1_1.title from Student_Group sg1_0 join StudentGroup sg1_1 on sg1_1.id=sg1_0.studentGroup_id where sg1_0.student_id=?
+2024-05-25 18:08:22,066 INFO  [jakarta.enterprise.resource.webcontainer.faces.renderkit] (default task-1) WARNING: FacesMessage(s) have been enqueued, but may not have been displayed.
+sourceId=j_idt6:j_idt9[severity=(ERROR 2), summary=(j_idt6:j_idt9: Validation Error: Value is required.), detail=(j_idt6:j_idt9: Validation Error: Value is required.)]
+2024-05-25 18:08:35,515 INFO  [jakarta.enterprise.resource.webcontainer.faces.renderkit] (default task-1) WARNING: FacesMessage(s) have been enqueued, but may not have been displayed.
+sourceId=j_idt6:j_idt9[severity=(ERROR 2), summary=(j_idt6:j_idt9: Validation Error: Value is required.), detail=(j_idt6:j_idt9: Validation Error: Value is required.)]
+2024-05-25 18:08:45,271 INFO  [stdout] (default task-1) Called method: generateNewPassNumber
+2024-05-25 18:08:45,287 INFO  [stdout] (default task-1) UpdateStudentDetails INIT CALLED
+2024-05-25 18:08:45,289 INFO  [stdout] (default task-1) Hibernate: select s1_0.id,c1_0.id,c1_0.capacity,c1_0.grade,s1_0.name,s1_0.PASS_NUMBER,s1_0.surname,s1_0.OPT_LOCK_VERSION from Student s1_0 left join Course c1_0 on c1_0.id=s1_0.course_id where s1_0.id=?
+2024-05-25 18:08:45,290 INFO  [stdout] (default task-1) Hibernate: select sg1_0.student_id,sg1_1.id,sg1_1.capacity,sg1_1.grade,sg1_1.title from Student_Group sg1_0 join StudentGroup sg1_1 on sg1_1.id=sg1_0.studentGroup_id where sg1_0.student_id=?
+2024-05-25 18:08:53,160 INFO  [stdout] (default task-1) UpdateStudentDetails INIT CALLED
+2024-05-25 18:08:53,160 INFO  [stdout] (default task-1) Hibernate: select s1_0.id,c1_0.id,c1_0.capacity,c1_0.grade,s1_0.name,s1_0.PASS_NUMBER,s1_0.surname,s1_0.OPT_LOCK_VERSION from Student s1_0 left join Course c1_0 on c1_0.id=s1_0.course_id where s1_0.id=?
+2024-05-25 18:08:53,161 INFO  [stdout] (default task-1) Hibernate: select sg1_0.student_id,sg1_1.id,sg1_1.capacity,sg1_1.grade,sg1_1.title from Student_Group sg1_0 join StudentGroup sg1_1 on sg1_1.id=sg1_0.studentGroup_id where sg1_0.student_id=?
+2024-05-25 18:08:59,863 INFO  [stdout] (default task-1) Hibernate: select s1_0.id,c1_0.id,c1_0.capacity,c1_0.grade,s1_0.name,s1_0.PASS_NUMBER,s1_0.surname,s1_0.OPT_LOCK_VERSION from Student s1_0 left join Course c1_0 on c1_0.id=s1_0.course_id where s1_0.id=?
+2024-05-25 18:08:59,871 INFO  [stdout] (default task-1) Hibernate: select sg1_0.student_id,sg1_1.id,sg1_1.capacity,sg1_1.grade,sg1_1.title from Student_Group sg1_0 join StudentGroup sg1_1 on sg1_1.id=sg1_0.studentGroup_id where sg1_0.student_id=?
+2024-05-25 18:08:59,892 INFO  [stdout] (default task-1) Hibernate: update Student set course_id=?,name=?,PASS_NUMBER=?,surname=?,OPT_LOCK_VERSION=? where id=? and OPT_LOCK_VERSION=?
+2024-05-25 18:08:59,912 INFO  [stdout] (default task-1) Hibernate: select sg1_0.id,sg1_0.capacity,sg1_0.grade,sg1_0.title from StudentGroup sg1_0 where sg1_0.id=?
+2024-05-25 18:08:59,913 INFO  [stdout] (default task-1) Hibernate: select s1_0.studentGroup_id,s1_1.id,c1_0.id,c1_0.capacity,c1_0.grade,s1_1.name,s1_1.PASS_NUMBER,s1_1.surname,s1_1.OPT_LOCK_VERSION from Student_Group s1_0 join Student s1_1 on s1_1.id=s1_0.student_id left join Course c1_0 on c1_0.id=s1_1.course_id where s1_0.studentGroup_id=?
+2024-05-25 18:09:30,335 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0272: Suspending server
+2024-05-25 18:09:30,341 INFO  [org.jboss.as.ejb3] (management-handler-thread - 2) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2024-05-25 18:09:30,345 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+2024-05-25 18:09:30,361 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0019: Stopped Driver service with driver-name = PskDemo.war_org.h2.Driver_2_2
+2024-05-25 18:09:30,362 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-6) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2024-05-25 18:09:30,367 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 86) WFLYUT0022: Unregistered web context: '/PskDemo' from server 'default-server'
+2024-05-25 18:09:30,395 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0019: Host default-host stopping
+2024-05-25 18:09:30,406 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2024-05-25 18:09:30,408 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 89) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'PskDemo#DemoPersistenceUnit'
+2024-05-25 18:09:30,412 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 89) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@6bff571
+2024-05-25 18:09:30,417 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 89) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'PskDemo#DemoPersistenceUnit'
+2024-05-25 18:09:30,419 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:/StudentsDataSource]
+2024-05-25 18:09:30,425 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2024-05-25 18:09:30,449 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0008: Undertow HTTPS listener https suspending
+2024-05-25 18:09:30,449 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0008: Undertow HTTP listener default suspending
+2024-05-25 18:09:30,450 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2024-05-25 18:09:30,450 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2024-05-25 18:09:30,453 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0004: Undertow 2.3.10.Final stopping
+2024-05-25 18:09:30,491 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment PskDemo (runtime-name: PskDemo.war) in 140ms
+2024-05-25 18:09:30,497 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0050: WildFly Full 31.0.0.Final (WildFly Core 23.0.1.Final) stopped in 145ms
+2024-05-25 18:09:41,606 INFO  [org.jboss.modules] (main) JBoss Modules version 2.1.2.Final
+2024-05-25 18:09:44,416 INFO  [org.jboss.msc] (main) JBoss MSC version 1.5.2.Final
+2024-05-25 18:09:44,424 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2024-05-25 18:09:44,516 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 31.0.0.Final (WildFly Core 23.0.1.Final) starting
+2024-05-25 18:09:44,518 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	file.encoding = UTF-8
+	file.separator = \
+	java.awt.headless = true
+	java.class.path = C:\Users\Ropke\Desktop\wildfly-31.0.0.Final\jboss-modules.jar
+	java.class.version = 65.0
+	java.home = C:\Users\Ropke\.jdks\openjdk-21.0.2
+	java.io.tmpdir = C:\Users\Ropke\AppData\Local\Temp\
+	java.library.path = C:\Users\Ropke\.jdks\openjdk-21.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Eclipse Adoptium\jdk-21.0.2.13-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python312\Scripts\;C:\Python312\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:/Program Files/JetBrains/IntelliJ IDEA 2019.3.1/plugins/maven/lib/maven3\bin;C:\Users\Ropke\Desktop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin;C:\Program Files\Java\jdk-22\bin;C:\Users\Ropke\AppData\Local\Microsoft\WindowsApps;C:\Users\Ropke\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Ropke\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.3\bin;;C:\Users\Ropke\.dotnet\tools;C:\Program Files\Tricentis\Mobile Agent;C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.4\bin;;C:\Users\Ropke\AppData\Roaming\npm;C:\MAVEN\apache-maven-3.9.6-bin\apache-maven-3.9.6\bin;C:\Program Files\Java\jdk-22\bin;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 21.0.2+13-58
+	java.security.manager = allow
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 21
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = https://java.oracle.com/
+	java.vendor.url.bug = https://bugreport.java.com/bugreport/
+	java.version = 21.0.2
+	java.version.date = 2024-01-16
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode, sharing
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 21
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 21.0.2+13-58
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = C:\Users\Ropke\Desktop\wildfly-31.0.0.Final
+	jboss.host.name = desktop-a9drvgm
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-a9drvgm
+	jboss.qualified.host.name = desktop-a9drvgm
+	jboss.server.base.dir = C:\Users\Ropke\Desktop\wildfly-31.0.0.Final\standalone
+	jboss.server.config.dir = C:\Users\Ropke\Desktop\wildfly-31.0.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\Ropke\Desktop\wildfly-31.0.0.Final\standalone\data
+	jboss.server.log.dir = C:\Users\Ropke\Desktop\wildfly-31.0.0.Final\standalone\log
+	jboss.server.name = desktop-a9drvgm
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Ropke\Desktop\wildfly-31.0.0.Final\standalone\tmp
+	jdk.debug = release
+	jdk.serialFilter = maxbytes=10485760;maxdepth=128;maxarray=100000;maxrefs=300000
+	line.separator = 
+
+	logging.configuration = file:C:\Users\Ropke\Desktop\wildfly-31.0.0.Final\standalone\configuration/logging.properties
+	module.path = C:\Users\Ropke\Desktop\wildfly-31.0.0.Final\modules
+	native.encoding = Cp1252
+	org.jboss.boot.log.file = C:\Users\Ropke\Desktop\wildfly-31.0.0.Final\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	stderr.encoding = Cp1252
+	stdout.encoding = Cp1252
+	sun.arch.data.model = 64
+	sun.boot.library.path = C:\Users\Ropke\.jdks\openjdk-21.0.2\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\Ropke\Desktop\wildfly-31.0.0.Final\jboss-modules.jar -mp C:\Users\Ropke\Desktop\wildfly-31.0.0.Final\modules org.jboss.as.standalone -Djboss.home.dir=C:\Users\Ropke\Desktop\wildfly-31.0.0.Final
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	user.country = US
+	user.country.format = LT
+	user.dir = C:\Users\Ropke\Desktop\wildfly-31.0.0.Final\bin
+	user.home = C:\Users\Ropke
+	user.language = en
+	user.language.format = lt
+	user.name = Ropke
+	user.script = 
+	user.timezone = Europe/Vilnius
+	user.variant = 
+2024-05-25 18:09:44,518 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Djdk.serialFilter=maxbytes=10485760;maxdepth=128;maxarray=100000;maxrefs=300000 --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldaps=ALL-UNNAMED --add-exports=jdk.naming.dns/com.sun.jndi.dns=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED -Djava.security.manager=allow -Dorg.jboss.boot.log.file=C:\Users\Ropke\Desktop\wildfly-31.0.0.Final\standalone\log\server.log -Dlogging.configuration=file:C:\Users\Ropke\Desktop\wildfly-31.0.0.Final\standalone\configuration/logging.properties 
+2024-05-25 18:09:47,075 INFO  [org.wildfly.security] (ServerService Thread Pool -- 28) ELY00001: WildFly Elytron version 2.2.3.Final
+2024-05-25 18:09:50,281 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 36) WFLYCTL0028: Attribute 'cluster' in the resource at address '/subsystem=ejb3/service=remote' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2024-05-25 18:09:50,369 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2024-05-25 18:09:50,379 INFO  [org.xnio] (MSC service thread 1-6) XNIO version 3.8.12.Final
+2024-05-25 18:09:50,384 INFO  [org.xnio.nio] (MSC service thread 1-6) XNIO NIO Implementation Version 3.8.12.Final
+2024-05-25 18:09:50,441 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 74) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2024-05-25 18:09:50,456 INFO  [org.wildfly.extension.microprofile.jwt.smallrye] (ServerService Thread Pool -- 66) WFLYJWT0001: Activating MicroProfile JWT Subsystem
+2024-05-25 18:09:50,458 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 54) WFLYHEALTH0001: Activating Base Health Subsystem
+2024-05-25 18:09:50,458 INFO  [org.wildfly.extension.microprofile.config.smallrye] (ServerService Thread Pool -- 65) WFLYCONF0001: Activating MicroProfile Config Subsystem
+2024-05-25 18:09:50,460 INFO  [org.wildfly.extension.elytron.oidc._private] (ServerService Thread Pool -- 53) WFLYOIDC0001: Activating WildFly Elytron OIDC Subsystem
+2024-05-25 18:09:50,461 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 55) WFLYCLINF0001: Activating Infinispan subsystem.
+2024-05-25 18:09:50,466 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 62) WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
+2024-05-25 18:09:50,473 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 64) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2024-05-25 18:09:50,483 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 67) WFLYNAM0001: Activating Naming Subsystem
+2024-05-25 18:09:50,484 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 56) WFLYIO001: Worker 'default' has auto-configured to 8 IO threads with 64 max task threads based on your 4 available processors
+2024-05-25 18:09:50,492 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 76) WFLYWS0002: Activating WebServices Extension
+2024-05-25 18:09:50,526 INFO  [org.jboss.as.connector] (MSC service thread 1-1) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 3.0.8.Final)
+2024-05-25 18:09:50,559 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 44) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 2.2)
+2024-05-25 18:09:50,574 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-2) WFLYELY00023: KeyStore file 'C:\Users\Ropke\Desktop\wildfly-31.0.0.Final\standalone\configuration\application.keystore' does not exist. Used blank.
+2024-05-25 18:09:50,703 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0003: Undertow 2.3.10.Final starting
+2024-05-25 18:09:50,730 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 57) WFLYRS0016: RESTEasy version 6.2.7.Final
+2024-05-25 18:09:50,750 INFO  [org.jboss.remoting] (MSC service thread 1-5) JBoss Remoting version 5.0.27.Final
+2024-05-25 18:09:50,767 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 75) WFLYUT0014: Creating file handler for path 'C:\Users\Ropke\Desktop\wildfly-31.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2024-05-25 18:09:50,892 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2024-05-25 18:09:58,845 INFO  [org.jboss.as.naming] (MSC service thread 1-7) WFLYNAM0003: Starting Naming Service
+2024-05-25 18:09:58,846 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-4) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2024-05-25 18:09:58,848 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2024-05-25 18:09:58,848 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2024-05-25 18:09:58,851 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = h2
+2024-05-25 18:09:58,862 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-2) WFLYELY01084: KeyStore C:\Users\Ropke\Desktop\wildfly-31.0.0.Final\standalone\configuration\application.keystore not found, it will be auto-generated on first use with a self-signed certificate for host localhost
+2024-05-25 18:09:58,910 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2024-05-25 18:09:58,921 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0012: Started server default-server.
+2024-05-25 18:09:58,922 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) Queuing requests.
+2024-05-25 18:09:58,923 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0018: Host default-host starting
+2024-05-25 18:09:58,925 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2024-05-25 18:09:59,015 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2024-05-25 18:09:59,300 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "PskDemo" (runtime-name: "PskDemo.war")
+2024-05-25 18:09:59,321 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-7) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\Ropke\Desktop\wildfly-31.0.0.Final\standalone\deployments
+2024-05-25 18:09:59,394 INFO  [org.jboss.ws.common.management] (MSC service thread 1-2) JBWS022052: Starting JBossWS 7.0.0.Final (Apache CXF 4.0.0) 
+2024-05-25 18:10:01,762 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) WFLYJPA0002: Read persistence.xml for DemoPersistenceUnit
+2024-05-25 18:10:01,783 WARN  [org.jboss.as.connector] (MSC service thread 1-4) WFLYJCA0091: -ds.xml file deployments are deprecated. Support may be removed in a future version.
+2024-05-25 18:10:02,173 INFO  [org.jipijapa] (MSC service thread 1-2) JIPIORMV6020260: Second level cache enabled for PskDemo#DemoPersistenceUnit
+2024-05-25 18:10:02,174 WARN  [org.jboss.as.connector.deployer.dsdeployer] (MSC service thread 1-2) WFLYJCA0012: <drivers/> in standalone -ds.xml deployments aren't supported: Ignoring PskDemo.war
+2024-05-25 18:10:02,325 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:/StudentsDataSource]
+2024-05-25 18:10:02,341 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment PskDemo.war
+2024-05-25 18:10:02,512 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-8) HV000001: Hibernate Validator 8.0.1.Final
+2024-05-25 18:10:02,891 INFO  [org.jipijapa] (MSC service thread 1-1) JIPIORMV6020260: Second level cache enabled for PskDemo#DemoPersistenceUnit
+2024-05-25 18:10:02,947 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 2.2)
+2024-05-25 18:10:02,973 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 79) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2024-05-25 18:10:02,985 INFO  [org.jboss.weld.Version] (MSC service thread 1-1) WELD-000900: 5.1.2 (Final)
+2024-05-25 18:10:03,048 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = PskDemo.war_org.h2.Driver_2_2
+2024-05-25 18:10:03,446 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 79) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'PskDemo#DemoPersistenceUnit'
+2024-05-25 18:10:03,465 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 79) HHH000204: Processing PersistenceUnitInfo [name: DemoPersistenceUnit]
+2024-05-25 18:10:03,536 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 79) HHH000412: Hibernate ORM core version 6.4.2.Final
+2024-05-25 18:10:03,860 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 79) HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-05-25 18:10:03,878 INFO  [org.hibernate.cache.internal.RegionFactoryInitiator] (ServerService Thread Pool -- 79) HHH000025: Second-level cache region factory [org.infinispan.hibernate.cache.v62.InfinispanRegionFactory]
+2024-05-25 18:10:03,941 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 79) Envers integration enabled? : true
+2024-05-25 18:10:04,080 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 79) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'PskDemo#DemoPersistenceUnit'
+2024-05-25 18:10:05,621 INFO  [org.mybatis.cdi.MybatisExtension] (MSC service thread 1-8) MyBatis CDI Module - Activated
+2024-05-25 18:10:05,898 INFO  [jakarta.enterprise.resource.webcontainer.faces.config] (ServerService Thread Pool -- 81) Initializing Mojarra 4.0.5 for context '/PskDemo'
+2024-05-25 18:10:06,549 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 81) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class org.vu.pskdemo.jpa.rest.ApiConfiguration
+2024-05-25 18:10:06,611 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 81) WFLYUT0021: Registered web context: '/PskDemo' for server 'default-server'
+2024-05-25 18:10:06,740 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "PskDemo" (runtime-name : "PskDemo.war")
+2024-05-25 18:10:06,801 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2024-05-25 18:10:06,805 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2024-05-25 18:10:06,806 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2024-05-25 18:10:06,808 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 31.0.0.Final (WildFly Core 23.0.1.Final) started in 30051ms - Started 427 of 628 services (323 services are lazy, passive or on-demand) - Server configuration file in use: standalone.xml
+2024-05-25 18:10:07,344 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0019: Stopped Driver service with driver-name = PskDemo.war_org.h2.Driver_2_2
+2024-05-25 18:10:07,346 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 2) WFLYUT0022: Unregistered web context: '/PskDemo' from server 'default-server'
+2024-05-25 18:10:07,361 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 2) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'PskDemo#DemoPersistenceUnit'
+2024-05-25 18:10:07,363 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 2) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@5dddc4ba
+2024-05-25 18:10:07,366 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 2) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'PskDemo#DemoPersistenceUnit'
+2024-05-25 18:10:07,366 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0010: Unbound data source [java:/StudentsDataSource]
+2024-05-25 18:10:07,605 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment PskDemo (runtime-name: PskDemo.war) in 263ms
+2024-05-25 18:10:07,643 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "PskDemo" (runtime-name: "PskDemo.war")
+2024-05-25 18:10:07,817 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "PskDemo" (runtime-name: "PskDemo.war")
+2024-05-25 18:10:08,763 INFO  [org.jboss.as.jpa] (MSC service thread 1-8) WFLYJPA0002: Read persistence.xml for DemoPersistenceUnit
+2024-05-25 18:10:08,765 WARN  [org.jboss.as.connector] (MSC service thread 1-8) WFLYJCA0091: -ds.xml file deployments are deprecated. Support may be removed in a future version.
+2024-05-25 18:10:08,807 INFO  [org.jipijapa] (MSC service thread 1-5) JIPIORMV6020260: Second level cache enabled for PskDemo#DemoPersistenceUnit
+2024-05-25 18:10:08,808 WARN  [org.jboss.as.connector.deployer.dsdeployer] (MSC service thread 1-5) WFLYJCA0012: <drivers/> in standalone -ds.xml deployments aren't supported: Ignoring PskDemo.war
+2024-05-25 18:10:08,814 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:/StudentsDataSource]
+2024-05-25 18:10:08,821 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 2) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2024-05-25 18:10:08,824 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment PskDemo.war
+2024-05-25 18:10:08,858 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 39) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'PskDemo#DemoPersistenceUnit'
+2024-05-25 18:10:08,859 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 39) HHH000204: Processing PersistenceUnitInfo [name: DemoPersistenceUnit]
+2024-05-25 18:10:08,928 INFO  [org.jipijapa] (MSC service thread 1-5) JIPIORMV6020260: Second level cache enabled for PskDemo#DemoPersistenceUnit
+2024-05-25 18:10:08,932 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 2.2)
+2024-05-25 18:10:08,957 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = PskDemo.war_org.h2.Driver_2_2
+2024-05-25 18:10:09,016 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 39) HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-05-25 18:10:09,017 INFO  [org.hibernate.cache.internal.RegionFactoryInitiator] (ServerService Thread Pool -- 39) HHH000025: Second-level cache region factory [org.infinispan.hibernate.cache.v62.InfinispanRegionFactory]
+2024-05-25 18:10:09,022 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 39) Envers integration enabled? : true
+2024-05-25 18:10:09,040 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 2) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'PskDemo#DemoPersistenceUnit'
+2024-05-25 18:10:09,312 INFO  [org.mybatis.cdi.MybatisExtension] (MSC service thread 1-3) MyBatis CDI Module - Activated
+2024-05-25 18:10:09,415 INFO  [jakarta.enterprise.resource.webcontainer.faces.config] (ServerService Thread Pool -- 39) Initializing Mojarra 4.0.5 for context '/PskDemo'
+2024-05-25 18:10:09,673 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 39) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class org.vu.pskdemo.jpa.rest.ApiConfiguration
+2024-05-25 18:10:09,682 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 39) WFLYUT0021: Registered web context: '/PskDemo' for server 'default-server'
+2024-05-25 18:10:09,722 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0010: Deployed "PskDemo" (runtime-name : "PskDemo.war")
+2024-05-25 18:10:10,178 INFO  [stdout] (default task-1) Hibernate: select sg1_0.id,sg1_0.capacity,sg1_0.grade,sg1_0.title from StudentGroup sg1_0
+2024-05-25 18:10:11,624 INFO  [stdout] (default task-1) Hibernate: select sg1_0.id,sg1_0.capacity,sg1_0.grade,sg1_0.title from StudentGroup sg1_0
+2024-05-25 18:10:13,148 INFO  [stdout] (default task-1) Hibernate: select sg1_0.id,sg1_0.capacity,sg1_0.grade,sg1_0.title from StudentGroup sg1_0 where sg1_0.id=?
+2024-05-25 18:10:13,159 INFO  [stdout] (default task-1) Hibernate: select s1_0.studentGroup_id,s1_1.id,c1_0.id,c1_0.capacity,c1_0.grade,s1_1.name,s1_1.PASS_NUMBER,s1_1.surname,s1_1.OPT_LOCK_VERSION from Student_Group s1_0 join Student s1_1 on s1_1.id=s1_0.student_id left join Course c1_0 on c1_0.id=s1_1.course_id where s1_0.studentGroup_id=?
+2024-05-25 18:10:16,097 INFO  [stdout] (default task-1) UpdateStudentDetails INIT CALLED
+2024-05-25 18:10:16,099 INFO  [stdout] (default task-1) Hibernate: select s1_0.id,c1_0.id,c1_0.capacity,c1_0.grade,s1_0.name,s1_0.PASS_NUMBER,s1_0.surname,s1_0.OPT_LOCK_VERSION from Student s1_0 left join Course c1_0 on c1_0.id=s1_0.course_id where s1_0.id=?
+2024-05-25 18:10:16,101 INFO  [stdout] (default task-1) Hibernate: select sg1_0.student_id,sg1_1.id,sg1_1.capacity,sg1_1.grade,sg1_1.title from Student_Group sg1_0 join StudentGroup sg1_1 on sg1_1.id=sg1_0.studentGroup_id where sg1_0.student_id=?
+2024-05-25 18:10:17,824 INFO  [stdout] (default task-1) Called method: generateNewPassNumber
+2024-05-25 18:10:17,843 INFO  [stdout] (default task-1) UpdateStudentDetails INIT CALLED
+2024-05-25 18:10:17,844 INFO  [stdout] (default task-1) Hibernate: select s1_0.id,c1_0.id,c1_0.capacity,c1_0.grade,s1_0.name,s1_0.PASS_NUMBER,s1_0.surname,s1_0.OPT_LOCK_VERSION from Student s1_0 left join Course c1_0 on c1_0.id=s1_0.course_id where s1_0.id=?
+2024-05-25 18:10:17,845 INFO  [stdout] (default task-1) Hibernate: select sg1_0.student_id,sg1_1.id,sg1_1.capacity,sg1_1.grade,sg1_1.title from Student_Group sg1_0 join StudentGroup sg1_1 on sg1_1.id=sg1_0.studentGroup_id where sg1_0.student_id=?
+2024-05-25 18:10:28,330 INFO  [stdout] (default task-1) UpdateStudentDetails INIT CALLED
+2024-05-25 18:10:28,331 INFO  [stdout] (default task-1) Hibernate: select s1_0.id,c1_0.id,c1_0.capacity,c1_0.grade,s1_0.name,s1_0.PASS_NUMBER,s1_0.surname,s1_0.OPT_LOCK_VERSION from Student s1_0 left join Course c1_0 on c1_0.id=s1_0.course_id where s1_0.id=?
+2024-05-25 18:10:28,332 INFO  [stdout] (default task-1) Hibernate: select sg1_0.student_id,sg1_1.id,sg1_1.capacity,sg1_1.grade,sg1_1.title from Student_Group sg1_0 join StudentGroup sg1_1 on sg1_1.id=sg1_0.studentGroup_id where sg1_0.student_id=?
+2024-05-25 18:10:32,314 INFO  [stdout] (default task-1) Called method: generateNewPassNumber
+2024-05-25 18:10:32,326 INFO  [stdout] (default task-1) UpdateStudentDetails INIT CALLED
+2024-05-25 18:10:32,327 INFO  [stdout] (default task-1) Hibernate: select s1_0.id,c1_0.id,c1_0.capacity,c1_0.grade,s1_0.name,s1_0.PASS_NUMBER,s1_0.surname,s1_0.OPT_LOCK_VERSION from Student s1_0 left join Course c1_0 on c1_0.id=s1_0.course_id where s1_0.id=?
+2024-05-25 18:10:32,328 INFO  [stdout] (default task-1) Hibernate: select sg1_0.student_id,sg1_1.id,sg1_1.capacity,sg1_1.grade,sg1_1.title from Student_Group sg1_0 join StudentGroup sg1_1 on sg1_1.id=sg1_0.studentGroup_id where sg1_0.student_id=?
+2024-05-25 18:10:36,678 INFO  [stdout] (default task-1) UpdateStudentDetails INIT CALLED
+2024-05-25 18:10:36,679 INFO  [stdout] (default task-1) Hibernate: select s1_0.id,c1_0.id,c1_0.capacity,c1_0.grade,s1_0.name,s1_0.PASS_NUMBER,s1_0.surname,s1_0.OPT_LOCK_VERSION from Student s1_0 left join Course c1_0 on c1_0.id=s1_0.course_id where s1_0.id=?
+2024-05-25 18:10:36,680 INFO  [stdout] (default task-1) Hibernate: select sg1_0.student_id,sg1_1.id,sg1_1.capacity,sg1_1.grade,sg1_1.title from Student_Group sg1_0 join StudentGroup sg1_1 on sg1_1.id=sg1_0.studentGroup_id where sg1_0.student_id=?
+2024-05-25 18:10:43,676 INFO  [stdout] (default task-1) Hibernate: select s1_0.id,c1_0.id,c1_0.capacity,c1_0.grade,s1_0.name,s1_0.PASS_NUMBER,s1_0.surname,s1_0.OPT_LOCK_VERSION from Student s1_0 left join Course c1_0 on c1_0.id=s1_0.course_id where s1_0.id=?
+2024-05-25 18:10:43,689 INFO  [stdout] (default task-1) Hibernate: select sg1_0.student_id,sg1_1.id,sg1_1.capacity,sg1_1.grade,sg1_1.title from Student_Group sg1_0 join StudentGroup sg1_1 on sg1_1.id=sg1_0.studentGroup_id where sg1_0.student_id=?
+2024-05-25 18:10:43,710 INFO  [stdout] (default task-1) Hibernate: update Student set course_id=?,name=?,PASS_NUMBER=?,surname=?,OPT_LOCK_VERSION=? where id=? and OPT_LOCK_VERSION=?
+2024-05-25 18:10:43,729 INFO  [stdout] (default task-1) Hibernate: select sg1_0.id,sg1_0.capacity,sg1_0.grade,sg1_0.title from StudentGroup sg1_0 where sg1_0.id=?
+2024-05-25 18:10:43,731 INFO  [stdout] (default task-1) Hibernate: select s1_0.studentGroup_id,s1_1.id,c1_0.id,c1_0.capacity,c1_0.grade,s1_1.name,s1_1.PASS_NUMBER,s1_1.surname,s1_1.OPT_LOCK_VERSION from Student_Group s1_0 join Student s1_1 on s1_1.id=s1_0.student_id left join Course c1_0 on c1_0.id=s1_1.course_id where s1_0.studentGroup_id=?
+2024-05-25 18:10:51,414 INFO  [stdout] (default task-1) UpdateStudentDetails INIT CALLED
+2024-05-25 18:10:51,414 INFO  [stdout] (default task-1) Hibernate: select s1_0.id,c1_0.id,c1_0.capacity,c1_0.grade,s1_0.name,s1_0.PASS_NUMBER,s1_0.surname,s1_0.OPT_LOCK_VERSION from Student s1_0 left join Course c1_0 on c1_0.id=s1_0.course_id where s1_0.id=?
+2024-05-25 18:10:51,416 INFO  [stdout] (default task-1) Hibernate: select sg1_0.student_id,sg1_1.id,sg1_1.capacity,sg1_1.grade,sg1_1.title from Student_Group sg1_0 join StudentGroup sg1_1 on sg1_1.id=sg1_0.studentGroup_id where sg1_0.student_id=?
+2024-05-25 18:10:52,588 INFO  [stdout] (default task-1) Called method: generateNewPassNumber
+2024-05-25 18:10:52,599 INFO  [stdout] (default task-1) UpdateStudentDetails INIT CALLED
+2024-05-25 18:10:52,600 INFO  [stdout] (default task-1) Hibernate: select s1_0.id,c1_0.id,c1_0.capacity,c1_0.grade,s1_0.name,s1_0.PASS_NUMBER,s1_0.surname,s1_0.OPT_LOCK_VERSION from Student s1_0 left join Course c1_0 on c1_0.id=s1_0.course_id where s1_0.id=?
+2024-05-25 18:10:52,601 INFO  [stdout] (default task-1) Hibernate: select sg1_0.student_id,sg1_1.id,sg1_1.capacity,sg1_1.grade,sg1_1.title from Student_Group sg1_0 join StudentGroup sg1_1 on sg1_1.id=sg1_0.studentGroup_id where sg1_0.student_id=?
+2024-05-25 18:11:47,046 INFO  [stdout] (default task-1) Using default implementation of GradeCalculator. Grade: 14.8
+2024-05-25 18:11:47,046 INFO  [stdout] (default task-1) Using imitation (@specializes) implementation of grade calculator. Honors grade: 15.3
+2024-05-25 18:11:47,047 INFO  [stdout] (default task-1) Using @Decorator implementation of grade calculator.
+2024-05-25 18:11:47,050 INFO  [stdout] (default task-1) Rounding: Final grade before rounding: 15.3, after rounding: 15.0
+2024-05-25 18:11:51,697 INFO  [stdout] (default task-1) Using default implementation of GradeCalculator. Grade: 8.8
+2024-05-25 18:11:51,697 INFO  [stdout] (default task-1) Using imitation (@specializes) implementation of grade calculator. Honors grade: 9.3
+2024-05-25 18:11:51,697 INFO  [stdout] (default task-1) Using @Decorator implementation of grade calculator.
+2024-05-25 18:11:51,697 INFO  [stdout] (default task-1) Rounding: Final grade before rounding: 9.3, after rounding: 9.0
+2024-05-25 18:11:54,642 INFO  [stdout] (default task-1) Hibernate: select sg1_0.id,sg1_0.capacity,sg1_0.grade,sg1_0.title from StudentGroup sg1_0
+2024-05-25 18:11:56,357 INFO  [stdout] (default task-1) Hibernate: select sg1_0.id,sg1_0.capacity,sg1_0.grade,sg1_0.title from StudentGroup sg1_0 where sg1_0.id=?
+2024-05-25 18:11:56,359 INFO  [stdout] (default task-1) Hibernate: select s1_0.studentGroup_id,s1_1.id,c1_0.id,c1_0.capacity,c1_0.grade,s1_1.name,s1_1.PASS_NUMBER,s1_1.surname,s1_1.OPT_LOCK_VERSION from Student_Group s1_0 join Student s1_1 on s1_1.id=s1_0.student_id left join Course c1_0 on c1_0.id=s1_1.course_id where s1_0.studentGroup_id=?
+2024-05-25 18:11:57,220 INFO  [stdout] (default task-1) UpdateStudentDetails INIT CALLED
+2024-05-25 18:11:57,221 INFO  [stdout] (default task-1) Hibernate: select s1_0.id,c1_0.id,c1_0.capacity,c1_0.grade,s1_0.name,s1_0.PASS_NUMBER,s1_0.surname,s1_0.OPT_LOCK_VERSION from Student s1_0 left join Course c1_0 on c1_0.id=s1_0.course_id where s1_0.id=?
+2024-05-25 18:11:57,222 INFO  [stdout] (default task-1) Hibernate: select sg1_0.student_id,sg1_1.id,sg1_1.capacity,sg1_1.grade,sg1_1.title from Student_Group sg1_0 join StudentGroup sg1_1 on sg1_1.id=sg1_0.studentGroup_id where sg1_0.student_id=?
+2024-05-25 18:12:04,483 INFO  [stdout] (default task-1) UpdateStudentDetails INIT CALLED
+2024-05-25 18:12:04,484 INFO  [stdout] (default task-1) Hibernate: select s1_0.id,c1_0.id,c1_0.capacity,c1_0.grade,s1_0.name,s1_0.PASS_NUMBER,s1_0.surname,s1_0.OPT_LOCK_VERSION from Student s1_0 left join Course c1_0 on c1_0.id=s1_0.course_id where s1_0.id=?
+2024-05-25 18:12:04,485 INFO  [stdout] (default task-1) Hibernate: select sg1_0.student_id,sg1_1.id,sg1_1.capacity,sg1_1.grade,sg1_1.title from Student_Group sg1_0 join StudentGroup sg1_1 on sg1_1.id=sg1_0.studentGroup_id where sg1_0.student_id=?
+2024-05-25 18:12:05,483 INFO  [stdout] (default task-1) Called method: generateNewPassNumber
+2024-05-25 18:12:05,494 INFO  [stdout] (default task-1) UpdateStudentDetails INIT CALLED
+2024-05-25 18:12:05,495 INFO  [stdout] (default task-1) Hibernate: select s1_0.id,c1_0.id,c1_0.capacity,c1_0.grade,s1_0.name,s1_0.PASS_NUMBER,s1_0.surname,s1_0.OPT_LOCK_VERSION from Student s1_0 left join Course c1_0 on c1_0.id=s1_0.course_id where s1_0.id=?
+2024-05-25 18:12:05,496 INFO  [stdout] (default task-1) Hibernate: select sg1_0.student_id,sg1_1.id,sg1_1.capacity,sg1_1.grade,sg1_1.title from Student_Group sg1_0 join StudentGroup sg1_1 on sg1_1.id=sg1_0.studentGroup_id where sg1_0.student_id=?
+2024-05-25 18:12:06,843 INFO  [stdout] (default task-1) UpdateStudentDetails INIT CALLED
+2024-05-25 18:12:06,845 INFO  [stdout] (default task-1) Hibernate: select s1_0.id,c1_0.id,c1_0.capacity,c1_0.grade,s1_0.name,s1_0.PASS_NUMBER,s1_0.surname,s1_0.OPT_LOCK_VERSION from Student s1_0 left join Course c1_0 on c1_0.id=s1_0.course_id where s1_0.id=?
+2024-05-25 18:12:06,847 INFO  [stdout] (default task-1) Hibernate: select sg1_0.student_id,sg1_1.id,sg1_1.capacity,sg1_1.grade,sg1_1.title from Student_Group sg1_0 join StudentGroup sg1_1 on sg1_1.id=sg1_0.studentGroup_id where sg1_0.student_id=?
+2024-05-25 18:12:08,938 INFO  [stdout] (default task-1) UpdateStudentDetails INIT CALLED
+2024-05-25 18:12:08,940 INFO  [stdout] (default task-1) Hibernate: select s1_0.id,c1_0.id,c1_0.capacity,c1_0.grade,s1_0.name,s1_0.PASS_NUMBER,s1_0.surname,s1_0.OPT_LOCK_VERSION from Student s1_0 left join Course c1_0 on c1_0.id=s1_0.course_id where s1_0.id=?
+2024-05-25 18:12:08,941 INFO  [stdout] (default task-1) Hibernate: select sg1_0.student_id,sg1_1.id,sg1_1.capacity,sg1_1.grade,sg1_1.title from Student_Group sg1_0 join StudentGroup sg1_1 on sg1_1.id=sg1_0.studentGroup_id where sg1_0.student_id=?
+2024-05-25 18:14:07,495 INFO  [stdout] (default task-1) Using default implementation of GradeCalculator. Grade: 3.4
+2024-05-25 18:14:07,495 INFO  [stdout] (default task-1) Using imitation (@specializes) implementation of grade calculator. Honors grade: 3.9
+2024-05-25 18:14:07,495 INFO  [stdout] (default task-1) Using @Decorator implementation of grade calculator.
+2024-05-25 18:14:07,495 INFO  [stdout] (default task-1) Rounding: Final grade before rounding: 3.9, after rounding: 4.0
+2024-05-25 18:19:55,129 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0272: Suspending server
+2024-05-25 18:19:55,131 INFO  [org.jboss.as.ejb3] (management-handler-thread - 2) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2024-05-25 18:19:55,135 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+2024-05-25 18:19:55,143 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0019: Stopped Driver service with driver-name = PskDemo.war_org.h2.Driver_2_2
+2024-05-25 18:19:55,144 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-8) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2024-05-25 18:19:55,147 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 87) WFLYUT0022: Unregistered web context: '/PskDemo' from server 'default-server'
+2024-05-25 18:19:55,164 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0019: Host default-host stopping
+2024-05-25 18:19:55,168 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2024-05-25 18:19:55,169 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 91) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'PskDemo#DemoPersistenceUnit'
+2024-05-25 18:19:55,170 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 91) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@31c57009
+2024-05-25 18:19:55,171 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 91) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'PskDemo#DemoPersistenceUnit'
+2024-05-25 18:19:55,172 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0010: Unbound data source [java:/StudentsDataSource]
+2024-05-25 18:19:55,173 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2024-05-25 18:19:55,180 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0008: Undertow HTTP listener default suspending
+2024-05-25 18:19:55,180 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2024-05-25 18:19:55,181 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0008: Undertow HTTPS listener https suspending
+2024-05-25 18:19:55,181 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2024-05-25 18:19:55,182 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0004: Undertow 2.3.10.Final stopping
+2024-05-25 18:19:55,201 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment PskDemo (runtime-name: PskDemo.war) in 61ms
+2024-05-25 18:19:55,205 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0050: WildFly Full 31.0.0.Final (WildFly Core 23.0.1.Final) stopped in 66ms
